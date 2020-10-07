@@ -40,6 +40,7 @@ class App extends Component {
       if (p.id !== id ) {
         return p 
       }
+      return null;
     })
     this.setState({ pokemons })
   }
